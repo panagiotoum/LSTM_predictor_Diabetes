@@ -17,5 +17,5 @@ Evaluation criteria:
 - MARD (mean absolute relative difference)
 
 ## Results
-For the Prediction Horizon (PH) of 15 mean, we present the best graph with the lowest MARD.
+For the Prediction Horizon (PH) of 15 minutes, we present the best graph with the lowest MARD.
 ![alt text](https://github.com/panagiotoum/LSTM_predictor_Diabetes/blob/main/Figures/ph%3D15min/virtual_adult1.png)
