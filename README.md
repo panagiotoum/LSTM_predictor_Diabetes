@@ -1,9 +1,5 @@
 # LSTM_predictor_Diabetes
-Prediction of hypoglycemic and hyperglycemic episodes in people with diabetes type 1 using deep learning techniques, such as LSTM model.
+In our project we developed a LSTM predictor model, in order to predict the blood glucose levels in 30 patients with diabetes type I in the horizon of 15,30,60 and 120 minutes.
 
 ## Data Preparation
-Before a univariate series can be modeled, it must be prepared.
-
-The LSTM model will learn a function that maps a sequence of past observations as input to an output observation. As such, the sequence of observations must be transformed into multiple examples from which the LSTM can learn.
-
-Consider a given univariate sequence, We can divide the sequence into multiple input/output patterns called samples, where three time steps are used as input and one time step is used as output for the one-step prediction that is being learned.
+The set of virtual patients with SDT1 of the UVA Simulator of the University of Padua was used to develop and evaluate the model. We used data from 30 patients (10 adults, 10 adolescents and 10 children) for our work and simulated data for 1 week. The model entry area was determined to include glucose values recorded by a continuous glucose meter (Sensor), insulin values delivered by a continuous subcutaneous insulin pump (Injection) and the amount of carbohydrates in the meals received (CHO). Data collection was based on sampling every 5 minutes, according to the operating principles of continuous glucose meters. We normalized the data and then splitted into train and test set. The 70% of the dataset used for the training and the remaing for the test.
