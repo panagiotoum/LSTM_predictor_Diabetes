@@ -1,2 +1,2 @@
 # LSTM_predictor_Diabetes
-Prediction of hypoglycemic and hyperglycemic episodes in people withtype 1 diabetes using deep learning techniques, using LSTM model.
+Prediction of hypoglycemic and hyperglycemic episodes in people with diabetes type 1 using deep learning techniques, such as LSTM model.
